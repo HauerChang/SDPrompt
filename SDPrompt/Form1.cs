@@ -324,5 +324,11 @@ namespace SDPrompt
         {
 
         }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            listBox16.Items.Clear();
+            Clipboard.Clear();
+        }
     }
 }
