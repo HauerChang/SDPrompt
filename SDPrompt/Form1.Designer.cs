@@ -110,6 +110,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 52);
             this.listBox1.TabIndex = 1;
+            this.listBox1.Click += new System.EventHandler(this.ListBox1_Click);
             this.listBox1.DoubleClick += new System.EventHandler(this.ListBox1_DoubleClick);
             // 
             // listBox2
@@ -120,6 +121,7 @@
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(120, 52);
             this.listBox2.TabIndex = 2;
+            this.listBox2.Click += new System.EventHandler(this.ListBox2_Click);
             this.listBox2.DoubleClick += new System.EventHandler(this.ListBox2_DoubleClick);
             // 
             // groupBox1
@@ -160,6 +162,7 @@
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(120, 40);
             this.listBox3.TabIndex = 1;
+            this.listBox3.Click += new System.EventHandler(this.ListBox3_Click);
             this.listBox3.DoubleClick += new System.EventHandler(this.ListBox3_DoubleClick);
             // 
             // groupBox4
@@ -180,6 +183,7 @@
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(120, 28);
             this.listBox4.TabIndex = 1;
+            this.listBox4.Click += new System.EventHandler(this.ListBox4_Click);
             this.listBox4.DoubleClick += new System.EventHandler(this.ListBox4_DoubleClick);
             // 
             // groupBox5
@@ -200,6 +204,7 @@
             this.listBox5.Name = "listBox5";
             this.listBox5.Size = new System.Drawing.Size(120, 28);
             this.listBox5.TabIndex = 1;
+            this.listBox5.Click += new System.EventHandler(this.ListBox5_Click);
             this.listBox5.DoubleClick += new System.EventHandler(this.ListBox5_DoubleClick);
             // 
             // groupBox6
@@ -220,6 +225,7 @@
             this.listBox6.Name = "listBox6";
             this.listBox6.Size = new System.Drawing.Size(120, 40);
             this.listBox6.TabIndex = 1;
+            this.listBox6.Click += new System.EventHandler(this.ListBox6_Click);
             this.listBox6.DoubleClick += new System.EventHandler(this.ListBox6_DoubleClick);
             // 
             // groupBox7
@@ -240,6 +246,7 @@
             this.listBox7.Name = "listBox7";
             this.listBox7.Size = new System.Drawing.Size(120, 40);
             this.listBox7.TabIndex = 1;
+            this.listBox7.Click += new System.EventHandler(this.ListBox7_Click);
             this.listBox7.DoubleClick += new System.EventHandler(this.ListBox7_DoubleClick);
             // 
             // groupBox8
@@ -260,6 +267,7 @@
             this.listBox8.Name = "listBox8";
             this.listBox8.Size = new System.Drawing.Size(120, 40);
             this.listBox8.TabIndex = 1;
+            this.listBox8.Click += new System.EventHandler(this.ListBox8_Click);
             this.listBox8.DoubleClick += new System.EventHandler(this.ListBox8_DoubleClick);
             // 
             // groupBox9
@@ -280,6 +288,7 @@
             this.listBox9.Name = "listBox9";
             this.listBox9.Size = new System.Drawing.Size(120, 52);
             this.listBox9.TabIndex = 2;
+            this.listBox9.Click += new System.EventHandler(this.ListBox9_Click);
             this.listBox9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ListBox9_MouseDoubleClick);
             // 
             // groupBox10
@@ -300,6 +309,7 @@
             this.listBox10.Name = "listBox10";
             this.listBox10.Size = new System.Drawing.Size(120, 52);
             this.listBox10.TabIndex = 2;
+            this.listBox10.Click += new System.EventHandler(this.ListBox10_Click);
             this.listBox10.DoubleClick += new System.EventHandler(this.ListBox10_DoubleClick);
             // 
             // groupBox11
@@ -320,6 +330,7 @@
             this.listBox11.Name = "listBox11";
             this.listBox11.Size = new System.Drawing.Size(120, 52);
             this.listBox11.TabIndex = 2;
+            this.listBox11.Click += new System.EventHandler(this.ListBox11_Click);
             this.listBox11.DoubleClick += new System.EventHandler(this.ListBox11_DoubleClick);
             // 
             // groupBox12
@@ -340,6 +351,7 @@
             this.listBox12.Name = "listBox12";
             this.listBox12.Size = new System.Drawing.Size(120, 52);
             this.listBox12.TabIndex = 2;
+            this.listBox12.Click += new System.EventHandler(this.ListBox12_Click);
             this.listBox12.DoubleClick += new System.EventHandler(this.ListBox12_DoubleClick);
             // 
             // groupBox13
@@ -360,6 +372,7 @@
             this.listBox13.Name = "listBox13";
             this.listBox13.Size = new System.Drawing.Size(120, 52);
             this.listBox13.TabIndex = 2;
+            this.listBox13.Click += new System.EventHandler(this.ListBox13_Click);
             this.listBox13.DoubleClick += new System.EventHandler(this.ListBox13_DoubleClick);
             // 
             // groupBox14
@@ -380,6 +393,7 @@
             this.listBox14.Name = "listBox14";
             this.listBox14.Size = new System.Drawing.Size(120, 28);
             this.listBox14.TabIndex = 1;
+            this.listBox14.Click += new System.EventHandler(this.ListBox14_Click);
             this.listBox14.DoubleClick += new System.EventHandler(this.ListBox14_DoubleClick);
             // 
             // groupBox15
@@ -400,6 +414,7 @@
             this.listBox15.Name = "listBox15";
             this.listBox15.Size = new System.Drawing.Size(120, 52);
             this.listBox15.TabIndex = 2;
+            this.listBox15.Click += new System.EventHandler(this.ListBox15_Click);
             this.listBox15.DoubleClick += new System.EventHandler(this.ListBox15_DoubleClick);
             // 
             // groupBox16
@@ -439,6 +454,7 @@
             this.listBox17.Name = "listBox17";
             this.listBox17.Size = new System.Drawing.Size(120, 52);
             this.listBox17.TabIndex = 2;
+            this.listBox17.Click += new System.EventHandler(this.ListBox17_Click);
             this.listBox17.DoubleClick += new System.EventHandler(this.ListBox17_DoubleClick);
             // 
             // groupBox18
@@ -459,6 +475,7 @@
             this.listBox18.Name = "listBox18";
             this.listBox18.Size = new System.Drawing.Size(120, 52);
             this.listBox18.TabIndex = 2;
+            this.listBox18.Click += new System.EventHandler(this.ListBox18_Click);
             this.listBox18.DoubleClick += new System.EventHandler(this.ListBox18_DoubleClick);
             // 
             // button1

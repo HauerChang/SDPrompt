@@ -21,6 +21,7 @@ namespace SDPrompt
             ReadTxtList();
         }
 
+        List<string> _group_box = new List<string>();
         void ReadTxtList()
         {
             ReadClothes();
@@ -42,19 +43,19 @@ namespace SDPrompt
             ReadBackGround();
             groupBox16.Text = "Prompt";
         }
+
+
         void ReadBackGround()
         {
             string path = "背景建築.txt";
             ReadFile(listBox18, path);
             groupBox18.Text = "背景建築";
-
         }
         void ReadAngle()
         {
             string path = "角度.txt";
             ReadFile(listBox17, path);
             groupBox17.Text = "角度";
-
         }
 
         void ReadLight()
@@ -86,8 +87,6 @@ namespace SDPrompt
             string path = "身材.txt";
             ReadFile(listBox11, path);
             groupBox11.Text = "身材";
-
-
         }
 
         void ReadShoes()
@@ -95,56 +94,49 @@ namespace SDPrompt
             string path = "鞋子.txt";
             ReadFile(listBox10, path);
             groupBox10.Text = "鞋子";
-
         }
         void ReadSocks()
         {
             string path = "襪子.txt";
             ReadFile(listBox9, path);
             groupBox9.Text = "襪子";
-
         }
         void ReadHairAccessories()
         {
             string path = "髮飾帽子.txt";
             ReadFile(listBox8, path);
-            groupBox8.Text = "髮飾/帽子";
-
+            groupBox8.Text = "髮飾帽子";
         }
         void ReadEye()
         {
             string path = "眼睛.txt";
             ReadFile(listBox7, path);
             groupBox7.Text = "眼睛";
-
         }
         void ReadHairStyle()
         {
             string path = "髮型.txt";
             ReadFile(listBox6, path);
             groupBox6.Text = "髮型";
-
         }
         void ReadMouth()
         {
             string path = "嘴.txt";
             ReadFile(listBox5, path);
             groupBox5.Text = "嘴";
-
         }
 
         void ReadScarf()
         {
             string path = "領巾項鍊.txt";
             ReadFile(listBox4, path);
-            groupBox4.Text = "領巾/項鍊";
-
+            groupBox4.Text = "領巾項鍊";
         }
         void ReadClothes()
         {
             string path = "衣服描述.txt";
             ReadFile(listBox1, path);
-            groupBox1.Text = "衣服/裙子/褲子";
+            groupBox1.Text = "衣服描述";
         }
 
         void ReadChest()
@@ -152,7 +144,6 @@ namespace SDPrompt
             string path = "胸部.txt";
             ReadFile(listBox3, path);
             groupBox3.Text = "胸部";
-
         }
         void ReadMaterial()
         {
@@ -165,7 +156,6 @@ namespace SDPrompt
         {
             string path = "image.png";
             pictureBox1.Image = Image.FromFile(path);
-
         }
 
         private void ListBox9_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -319,20 +309,154 @@ namespace SDPrompt
             }
         }
 
+        private void AddText2File(string path, string new_str)
+        {
+            using (StreamWriter sw = new StreamWriter(path+".txt", true))
+            {
+                sw.WriteLine(new_str);
+            }
+        }
+
+        private void DeleteTextFromFile(string path, string old_str)
+        {
+            List<string> lines = new List<string>();
+            foreach (string line in File.ReadAllLines(path+".txt"))
+            {
+                if (!line.Contains(old_str))
+                {
+                    lines.Add(line);
+                }
+            }
+
+            File.WriteAllLines(path+".txt", lines);
+        }
         private void Button3_Click(object sender, EventArgs e)
         {
-            
+            foreach (var control in this.Controls)
+            {
+                if (control is GroupBox groupBox && groupBox.Text == label1.Text)
+                {
+                    var listBox = groupBox.Controls.OfType<ListBox>().FirstOrDefault();
+                    if (listBox != null)
+                    {
+                        if (!listBox.Items.Contains(textBox1.Text))
+                        {
+                            AddText2File(groupBox.Text, textBox1.Text);
+                            listBox.Items.Add(textBox1.Text);
+                            break;
+                        }
+                    }
+                }
+            }
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
+            foreach (var control in this.Controls)
+            {
+                if (control is GroupBox groupBox && groupBox.Text == label1.Text)
+                {
+                    var listBox = groupBox.Controls.OfType<ListBox>().FirstOrDefault();
+                    if (listBox != null)
+                    {
 
+                        DeleteTextFromFile(groupBox.Text, textBox1.Text);
+                        listBox.Items.Remove(textBox1.Text);
+                        break;
+                    }
+                }
+            }
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
             listBox16.Items.Clear();
             Clipboard.Clear();
+        }
+
+        private void ListBox13_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox13.Text;
+        }
+
+        private void ListBox15_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox15.Text;
+        }
+
+        private void ListBox17_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox17.Text;
+        }
+
+        private void ListBox11_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox11.Text;
+        }
+
+        private void ListBox12_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox12.Text;
+        }
+
+        private void ListBox7_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox7.Text;
+        }
+
+        private void ListBox5_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox5.Text;
+        }
+
+        private void ListBox4_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox4.Text;
+        }
+
+        private void ListBox3_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox3.Text;
+        }
+
+        private void ListBox1_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox1.Text;
+        }
+
+        private void ListBox9_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox9.Text;
+        }
+
+        private void ListBox10_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox10.Text;
+        }
+
+        private void ListBox6_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox6.Text;
+        }
+
+        private void ListBox14_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox14.Text;
+        }
+
+        private void ListBox2_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox2.Text;
+        }
+
+        private void ListBox18_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox18.Text;
+        }
+
+        private void ListBox8_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox8.Text;
         }
     }
 }

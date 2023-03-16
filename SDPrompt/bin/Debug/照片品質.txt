@@ -16,4 +16,3 @@ film grain
 intricate details
 HDR
 high dynamic range
-
