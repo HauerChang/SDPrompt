@@ -72,6 +72,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.groupBox19 = new System.Windows.Forms.GroupBox();
+            this.listBox19 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -91,6 +93,7 @@
             this.groupBox16.SuspendLayout();
             this.groupBox17.SuspendLayout();
             this.groupBox18.SuspendLayout();
+            this.groupBox19.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -545,11 +548,33 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
+            // groupBox19
+            // 
+            this.groupBox19.Controls.Add(this.listBox19);
+            this.groupBox19.Location = new System.Drawing.Point(651, 176);
+            this.groupBox19.Name = "groupBox19";
+            this.groupBox19.Size = new System.Drawing.Size(132, 55);
+            this.groupBox19.TabIndex = 8;
+            this.groupBox19.TabStop = false;
+            this.groupBox19.Text = "groupBox19";
+            // 
+            // listBox19
+            // 
+            this.listBox19.FormattingEnabled = true;
+            this.listBox19.ItemHeight = 12;
+            this.listBox19.Location = new System.Drawing.Point(6, 16);
+            this.listBox19.Name = "listBox19";
+            this.listBox19.Size = new System.Drawing.Size(120, 28);
+            this.listBox19.TabIndex = 1;
+            this.listBox19.Click += new System.EventHandler(this.ListBox19_Click);
+            this.listBox19.DoubleClick += new System.EventHandler(this.ListBox19_DoubleClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1177, 587);
+            this.Controls.Add(this.groupBox19);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -597,6 +622,7 @@
             this.groupBox16.ResumeLayout(false);
             this.groupBox17.ResumeLayout(false);
             this.groupBox18.ResumeLayout(false);
+            this.groupBox19.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -648,6 +674,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.GroupBox groupBox19;
+        private System.Windows.Forms.ListBox listBox19;
     }
 }
 

@@ -41,10 +41,17 @@ namespace SDPrompt
             ReadLight();
             ReadAngle();
             ReadBackGround();
+            ReadFace();
             groupBox16.Text = "Prompt";
         }
 
+        void ReadFace()
+        {
+            string path = "臉的描述.txt";
+            ReadFile(listBox19, path);
+            groupBox19.Text = "臉的描述";
 
+        }
         void ReadBackGround()
         {
             string path = "背景建築.txt";
@@ -243,6 +250,10 @@ namespace SDPrompt
             AddPrompt(listBox18);
         }
 
+        private void ListBox19_DoubleClick(object sender, EventArgs e)
+        {
+            AddPrompt(listBox19);
+        }
         void ReadFile(ListBox listBox, string path)
         {
             if (File.Exists(path))
@@ -457,6 +468,10 @@ namespace SDPrompt
         private void ListBox8_Click(object sender, EventArgs e)
         {
             label1.Text = groupBox8.Text;
+        }
+        private void ListBox19_Click(object sender, EventArgs e)
+        {
+            label1.Text = groupBox19.Text;
         }
     }
 }
