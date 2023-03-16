@@ -279,12 +279,17 @@ namespace SDPrompt
                 if (selectedTextParts.Count() == 2)
                 {
                     englishText += selectedTextParts[1];
-                    listBox16.Items.Add(englishText.Trim());
                 }
                 else if (selectedTextParts.Count() == 1)
                 {
                     englishText += selectedTextParts[0];
-                    listBox16.Items.Add(englishText.Trim());
+                }
+
+                englishText = englishText.Trim();
+
+                if (!listBox16.Items.Contains(englishText))
+                {
+                    listBox16.Items.Add(englishText);
                 }
 
                 listBox16.Show();
@@ -293,12 +298,13 @@ namespace SDPrompt
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            string textToCopy = "";
-            for (int i = 0; i < listBox16.Items.Count; i++)
+            StringBuilder sb = new StringBuilder();
+            Parallel.For(0, listBox16.Items.Count, i =>
             {
-                textToCopy += listBox16.Items[i].ToString() + ",";
-            }
-            Clipboard.SetText(textToCopy);
+                sb.Append(listBox16.Items[i].ToString());
+                sb.Append(",");
+            });
+            Clipboard.SetText(sb.ToString());
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -307,6 +313,16 @@ namespace SDPrompt
             {
                 listBox16.Items.Remove(selectedItem);
             }
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
