@@ -1,0 +1,17 @@
+俯瞰视角:Top view
+地面视角:Ground view
+鸟瞰视角:Bird's eye view
+低角度拍摄:Low-angle shot
+高角度拍摄:High-angle shot
+蚯蚓视角:Worm's-eye view
+与人眼同高拍摄:Eye-level shot
+全景视角:Panoramic view
+特写:Close-up
+中景:Medium shot
+远景:Long shot
+广角拍摄:Wide shot
+长焦拍摄:Telephoto shot
+鱼眼视角:Fish-eye view
+肩头拍摄:Over-the-shoulder shot
+第一人称视角:Point-of-view shot
+倾斜视角:Dutch angle

@@ -1,0 +1,13 @@
+平底鞋: flat shoes
+高跟鞋: high heels
+球鞋: sneakers
+靴子: boots
+過膝靴:Over-the-knee boots
+長筒靴:Knee-high boots
+短靴:Ankle boots
+涼鞋: sandals
+拖鞋: slippers
+帆布鞋: canvas shoes
+楔形鞋: wedge shoes
+露趾鞋: open-toe shoes
+麻花鞋: loafers

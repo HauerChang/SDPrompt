@@ -1,0 +1,46 @@
+迷你裙：Mini Skirt
+膝上裙：Knee-length Skirt
+長裙：Maxi Skirt
+连衣裙：Dress
+运动连衣裙：Athletic Dress
+旗袍：Cheongsam/Qipao
+吊带裙：Sundress
+背心裙：Tank Dress
+漏肩连衣裙：Off-the-shoulder Dress
+深V连衣裙：Deep V-neck Dress
+连衣吊带背心：Jumpsuit Camisole
+连衣吊带背心套装：Jumpsuit Camisole Set
+连衣吊带背心荷叶边：Jumpsuit Camisole Ruffled Edge
+连衣短袖套装：Jumpsuit Short-sleeve Set
+连衣长袖套装：Jumpsuit Long-sleeve Set
+露肩连衣裙：Off-the-shoulder Jumpsuit
+运动连衣裙：Athletic Jumpsuit
+背心连身裤：Tank Jumpsuit
+带袖连身裤：Sleeved Jumpsuit
+长裤连身裤：Long Pants Jumpsuit
+牛仔褲: jeans
+短袖 T 恤: Short-sleeved T-shirt
+長袖 T 恤: Long-sleeved T-shirt
+無袖背心: Sleeveless tank top
+吊帶上衣: Camisole
+無肩帶上衣: Strapless top
+連帽衫: Hoodie
+毛衣: Sweater
+針織衫: Knit top
+襯衫: Shirt
+背心: Vest
+罩衫: Cardigan
+洋裝: Dress
+連身裙: Jumpsuit
+針織背心: Knit vest
+皮夾克: Leather jacket
+牛仔外套: Denim jacket
+風衣: Trench coat
+夾克: Jacket
+飛行夾克: Bomber jacket
+西裝外套: Blazer
+窄裙:pencil skirt
+胸前鏤空: clothing with cut-out front
+胸前鏤空:plaid cleavage
+
+

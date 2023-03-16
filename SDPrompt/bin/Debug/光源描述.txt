@@ -1,0 +1,26 @@
+光子映射:photon mapping
+輻射度:radiosity
+最佳陰影:best shadow
+鏡頭光暈:lens flare
+電影燈:cinema light
+正光:front light
+背光:back light
+側光:sidelight
+頂光:top light
+底光:down light
+自然光：Natural light
+陽光：Sunlight
+多雲：Cloudy
+陰影：Shade
+日出/日落：Sunrise/Sunset
+鎢絲燈光：Tungsten
+螢光燈光：Fluorescent
+白熾燈光：Incandescent
+燭光：Candlelight
+LED燈光：LED light
+閃光燈：Flash
+反光板：Reflector
+軟盒：Softbox
+反光傘：Umbrella
+環形燈：Ring light
+攝影棚燈光：Studio light

@@ -1,0 +1,15 @@
+髮箍：Headband
+髮夾：Hair Clip
+髮帶：Head Wrap
+髮圈：Hair Tie
+髮繩：Hair Elastic
+髮髻：Top Knot Bun
+髮花：Hair Flower
+髮帶頭箍：Headwrap Headband
+髮鏈：Hair Chain
+髮結：Hair Bow
+髮飾梳：Hair Comb
+髮箭：Hair Stick
+髮帶蕾絲：Lace Headband
+髮帶鏈條：Chain Headband
+髮帶珠寶：Jeweled Headband

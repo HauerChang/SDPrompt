@@ -1,0 +1,5 @@
+擺姿勢:posing 
+坐:sitting
+站:standing
+跑:running
+跳:jump

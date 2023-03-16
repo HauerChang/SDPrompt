@@ -1,0 +1,39 @@
+直髮：Straight Hair
+波浪髮：Wavy Hair
+卷髮：Curly Hair
+中分長髮：Medium-length Hair with Center Parting
+側分瀏海：Side-swept Bangs
+短髮：Short Hair
+波波頭：Bob Haircut
+短捲髮：Short Curly Hair
+長捲髮：Long Curly Hair
+瀏海：Bangs
+童顏短髮：Pixie Cut
+披肩長髮：Shoulder-length Hair
+長髮及腰：Waist-length Hair
+不對稱剪髮：Asymmetrical Haircut
+霧面短髮：Matte Short Hair
+翹翹鬆鬆髮型：Messy and Textured Hair
+編髮：Braids
+魚尾辮：Fish-tail Braid
+單辮：Single Braid
+雙馬尾：Double Ponytail
+花苞頭：Top Knot
+結綁式髮型：Bun Hairstyle
+波西米亞風格髮型：Bohemian Hairstyle
+安妮官方髮型：Anne Hathaway Haircut
+美人魚髮型：Mermaid Hairstyle
+梳頭髮束：Ponytail
+時尚短髮：Fashionable Short Haircut
+長層髮型：Layered Haircut
+露額瀏海：Forehead Bangs
+濃密短髮：Thick Short Haircut
+高馬尾：High Ponytail
+光頭：Bald Head
+緊束的髮型：Tight Hairstyle
+短髮：Short Haircut
+髮簪捲髮：Hairpin Curls
+空姐頭: Flight Attendant Bun(比較有效)
+空姐頭: french twist hair
+
+頭髮飄逸:hair fluttering
