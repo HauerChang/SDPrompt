@@ -370,9 +370,8 @@ namespace SDPrompt
                     var listBox = groupBox.Controls.OfType<ListBox>().FirstOrDefault();
                     if (listBox != null)
                     {
-
                         DeleteTextFromFile(groupBox.Text, textBox1.Text);
-                        listBox.Items.Remove(textBox1.Text);
+                        listBox.Items.Remove(listBox.Text);
                         break;
                     }
                 }

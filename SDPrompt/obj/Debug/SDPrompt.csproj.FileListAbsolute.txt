@@ -1,7 +1,6 @@
 D:\Code\SDPrompt\SDPrompt\SDPrompt\bin\Debug\SDPrompt.exe.config
 D:\Code\SDPrompt\SDPrompt\SDPrompt\bin\Debug\SDPrompt.exe
 D:\Code\SDPrompt\SDPrompt\SDPrompt\bin\Debug\SDPrompt.pdb
-D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.csprojAssemblyReference.cache
 D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.Form1.resources
 D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.Properties.Resources.resources
 D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.csproj.GenerateResource.cache
