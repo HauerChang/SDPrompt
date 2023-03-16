@@ -7,3 +7,4 @@ D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.csproj.GenerateResource.ca
 D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.csproj.CoreCompileInputs.cache
 D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.exe
 D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.pdb
+D:\Code\SDPrompt\SDPrompt\SDPrompt\obj\Debug\SDPrompt.csprojAssemblyReference.cache
