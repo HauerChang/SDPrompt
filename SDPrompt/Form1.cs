@@ -304,7 +304,11 @@ namespace SDPrompt
                 sb.Append(listBox16.Items[i].ToString());
                 sb.Append(",");
             });
-            Clipboard.SetText(sb.ToString());
+
+            if (sb.Length > 0)
+            {
+                Clipboard.SetText(sb.ToString());
+            }
         }
 
         private void Button2_Click(object sender, EventArgs e)
